@@ -78,7 +78,9 @@ You can always change what is synced via the **Settings Sync: Configure** comman
 
 When synchronizing settings between multiple machines, there may occasionally be conflicts. Conflicts can happen when first setting up sync between machines or when settings change while a machine is offline. When conflicts occur, you will be presented with the following options:
 
-* **Accept Local**: Selecting this option will overwrite **remote** settings in the cloud with your local settings.
+*
+
+Accept Local**: Selecting this option will overwrite **remote** settings in the cloud with your local settings.
 * **Accept Remote**: Selecting this option will overwrite **local** settings with remote settings from the cloud.
 * **Show Conflicts**: Selecting this will display a diff editor similar to the Source Control diff editor, where you can preview the local and remote settings and choose to either accept local or remote or manually resolve the changes in your local settings file and then accept the local file.
 
@@ -88,7 +90,7 @@ If at any time you want to sync your data to a different account, you can turn o
 
 ## Syncing Stable versus Insiders
 
-By default, the VS Code Stable and [Insiders](/insiders) builds use different Settings Sync services, and therefore do not share settings. You can sync your Insiders with Stable by selecting the Stable sync service while turning on Settings Sync. This option is only available in VS Code Insiders.
+By default, the VS Code Stable and [Inside](/insiders) builds use different Settings Sync services, and therefore do not share settings. You can sync your Insiders with Stable by selecting the Stable sync service while turning on Settings Sync. This option is only available in VS Code Insiders.
 
 ![Settings Sync Switch Service](images/settings-sync/settings-sync-switch.png)
 
